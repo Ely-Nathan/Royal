@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://www.activacontracts.co.uk/sitemap.xml
+Sitemap: http://www.royaldunkeld.co.uk/sitemap.xml

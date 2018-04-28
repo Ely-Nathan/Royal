@@ -7,26 +7,57 @@
 	  <meta name="robots" content="noindex">
   {% endif %}
 
-	<title>{{ page.title }} | Sitename</title>
+	<title>{{ page.title }} | Royal Dunkeld</title>
 
-	<meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="viewport" content="width=device-width">
-	<link rel="shortcut icon" href="/favicon.ico?v=2">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="{{site.url}}{{page.url}}">
+	<meta name="author" content="Elijah Nathan - Eli's Web">
+	<meta name="description" content="Beautiful, old fashioned hotel situated in the picturesque town of Dunkeld. Offering unique dining experiences, great rooms and perfect location of your getaway.">
+	<meta name="viewport" content="width=device-width">
+	<link rel="shortcut icon" href="images/r.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="images/r.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/r.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/r.png">
 
-  <!-- Font Awesome -->
+	<!-- Bootstrap -->
+	<link href='https://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	{% include google-analytics.html %}
-
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="/assets/css/bootstrap.css" />
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="/assets/css/animate.css">
+	<!-- Date time picker CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+	<!-- Custom styles CSS -->
 	<link rel="stylesheet" href="/assets/css/styles.css">
+	<!-- Google analytics -->
+	{% include google-analytics.html %}
+	<!-- Include Scripts: -->
+	{% include top-scripts.html %}
+
 </head>
 
 <body>
+
+	<!-- Google analytics fallback -->
 	{% include google-analytics-fallback.html %}
 
-		{% include header.html %} {{ content }} {% include footer.html %} {% include scripts.html %} {% include crazy-egg.html %}
+	<!-- Header (Navbar) -->
+	{% include header.html %}
+
+	<!-- Page content -->
+	{{ content }}
+
+	<!-- Page footer -->
+	{% include footer.html %}
+
+	<!-- Scripts -->
+	{% include scripts.html %}
+	{% include crazy-egg.html %}
 
 </body>
 
