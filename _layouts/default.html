@@ -7,14 +7,14 @@
 	  <meta name="robots" content="noindex">
   {% endif %}
 
-	<title>{{ page.title }} | Royal Dunkeld</title>
+	<title>{{ page.title }}</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="{{site.url}}{{page.url}}">
 	<meta name="author" content="Elijah Nathan - Eli's Web">
-	<meta name="description" content="Beautiful, old fashioned hotel situated in the picturesque town of Dunkeld. Offering unique dining experiences, great rooms and perfect location of your getaway.">
+	<meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="images/r.png">
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/r.png">
