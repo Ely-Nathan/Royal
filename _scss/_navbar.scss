@@ -1,5 +1,10 @@
 nav.navbar {
-  background: #fff;
+  background: #000;
+  .navbar-brand {
+    img {
+      width:100px;
+    }
+  }
   .navbar-toggler {
     background:#eee;
     color:#333333;
@@ -7,7 +12,8 @@ nav.navbar {
   ul {
     li {
       a.nav-link {
-        color: $text;
+        color: $white;
+        font-weight:700;
       }
     }
   }
