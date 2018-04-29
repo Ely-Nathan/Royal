@@ -12,6 +12,7 @@
   }
   &__bottom {
     background: #e6e6e6;
-    padding-top: $v-rhythm * 2;
+    padding: $v-rhythm * 2 0;
+    padding-top: $v-rhythm * 3;
   }
 }

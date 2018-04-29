@@ -32,15 +32,6 @@ body {
   &__cards {
     .card {
       margin-bottom:24px;
-      .card-body {
-        min-height:188px;
-        @include media-breakpoint-up(lg) {
-          min-height: 200px;
-        }
-        @include media-breakpoint-up(xl) {
-          min-height: 176px;
-        }
-      }
       .sleeps-text {
         color:#909090;
         font-size:12px;
