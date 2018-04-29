@@ -1,37 +1,11 @@
 #dining {
-
   .diningbody {
-    &__intro {
-      padding: 12px 0;
-      @include media-breakpoint-up(md) {
-        padding: 24px 0;
-      }
-    }
     &__cards {
       .card {
-        margin-bottom:24px;
         .card-body {
-          min-height:176px;
-          @include media-breakpoint-up(lg) {
+          min-height: 244px;
+          @include media-breakpoint-up(md) {
             min-height: 200px;
-          }
-          @include media-breakpoint-up(xl) {
-            min-height: 176px;
-          }
-        }
-        .sleeps-text {
-          color:#909090;
-          font-size:12px;
-          margin-top: 0;
-        }
-        a.card-footer {
-          background-color: $purple;
-          color: $white!important;
-          text-decoration: none;
-          text-align: center;
-          font-size: 14px;
-          &:hover {
-            background-color: $gold;
           }
         }
       }
