@@ -1,8 +1,5 @@
 #home {
   .main-content {
-    @include media-breakpoint-up(md) {
-      padding-right:0;
-    }
   }
   .our-hotel, .dine-in, .dunkeld {
     padding: 48px 14px;
@@ -62,7 +59,7 @@ flex: 0 0 auto;
   }
 
   .sidebar {
-    border-left: 3px solid $gold;
+    border-left: 2px solid $gold;
 
     hr {
       width: 50%;
