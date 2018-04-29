@@ -2,6 +2,7 @@
   background-size: cover;
   background-position: center center;
   border-bottom: 2px solid $gold;
+  padding:20px;
   .brand-logo {
     text-align: center;
     padding:24px 0;
@@ -70,5 +71,9 @@
   }
   &--dining {
     background-image: url('/assets/images/woodlandsmain.jpg');
+  }
+  &--to-do {
+    background-image: url('/assets/images/cathedral.jpg');
+    background-position: center top;
   }
 }
