@@ -1,3 +1,17 @@
 body {
-  background: #f2f2f2;
+  background: #fafafa;
+  font-family: 'Montserrat', verdana, system;
+  overflow-x: hidden;
+  p {
+    font-size: 14px;
+    line-height:24px;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Gabriela', 'Montserrat', verdana, system;
+  }
+  hr {
+    height: 2px;
+    border-color: $gold;
+    background: $gold;
+  }
 }

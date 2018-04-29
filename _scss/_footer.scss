@@ -1,7 +1,14 @@
 .footer {
   background: #eee;
+  border-top: 3px solid $gold;
+  a {
+    color: $gold !important;
+  }
   &__content {
     padding: $v-rhythm * 5 0;
+    i {
+      font-size:20px;
+    }
   }
   &__bottom {
     background: #e6e6e6;

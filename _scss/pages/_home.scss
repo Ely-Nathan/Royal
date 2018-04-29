@@ -1,0 +1,103 @@
+#home {
+  .main-content {
+    @include media-breakpoint-up(md) {
+      padding-right:0;
+    }
+  }
+  .our-hotel, .dine-in, .dunkeld {
+    padding: 48px 14px;
+    &__heading {
+      text-align: center;
+      @include media-breakpoint-up(md) {
+        text-align: left;
+      }
+      h2 {
+        font-size:52px;
+      }
+      hr {
+        width:20%;
+        @include media-breakpoint-up(md) {
+          margin: 12px 0;
+        }
+      }
+    }
+    &__image {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .our-hotel {
+    @include media-breakpoint-down(sm) {
+      padding-top:12px;
+    }
+  }
+  .dine-in {
+    background: #f2f2f2;
+    &__image {
+      display: flex;
+      order: 2;
+      img {
+        width:100%;
+        height:auto;
+        align-self: center;
+flex: 0 0 auto;
+
+      }
+    }
+    &__body {
+      display: flex;
+      order: 1;
+    }
+    @include media-breakpoint-up(md) {
+      &__image {
+        display: flex;
+        order: 1;
+      }
+      &__body {
+        display: flex;
+        order: 2;
+      }
+    }
+  }
+
+  .sidebar {
+    border-left: 3px solid $gold;
+
+    hr {
+      width: 50%;
+      margin: 12px auto;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        i {
+          color: $purple;
+          margin-right: 14px;
+        }
+      }
+    }
+
+    .home-quote {
+      i {
+        color: $purple;
+        font-size: 40px;
+        &.right {
+          float: right;
+          margin-top:-12px;
+        }
+      }
+    }
+
+    .tripadvisor-image {
+      img {
+        width: 75%;
+        @include media-breakpoint-up(md) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

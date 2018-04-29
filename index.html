@@ -4,27 +4,28 @@ title: Royal Dunkeld Hotel
 meta_description: Beautiful, old fashioned hotel situated in the picturesque town of Dunkeld. Offering unique dining experiences, great rooms and perfect location of your getaway.
 current: home
 ---
-<div class="hero hero--home">
-  <div class="container">
-    <div class="row">
-      <div class="brand-logo col-sm-12">
-        <img src="/assets/images/logo.png" alt="Royal Dunkeld Hotel & Woodlands Bistro">
-      </div>
-      <div class="booking-form col-sm-12 offset-sm-0 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-        <form action="https://portal.freetobook.com/widget-redir?w_id=32434&amp;w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" method="POST" name="f2b_search_form">
-          <input name="referrer" type="hidden" value="http://royaldunkeld.co.uk/">
-          <input name="checkIn" id="checkIn" type="hidden" value>
-          <div class="form-group">
-            <div class="input-group date" id="datetimepicker" data-target-input="nearest">
-              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay"/>
-              <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
-                <div class="input-group-text">
-                  <i class="fa fa-calendar"></i>
+<div id="home">
+  <div class="hero hero--home pt-7 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="brand-logo col-sm-12">
+          <img src="/assets/images/logo.png" alt="Royal Dunkeld Hotel & Woodlands Bistro">
+        </div>
+        <div class="booking-form col-sm-12 offset-sm-0 col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+          <form action="https://portal.freetobook.com/widget-redir?w_id=32434&amp;w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" method="POST" name="f2b_search_form">
+            <input name="referrer" type="hidden" value="http://royaldunkeld.co.uk/">
+            <input name="checkIn" id="checkIn" type="hidden" value>
+            <div class="form-group">
+              <div class="input-group date" id="datetimepicker" data-target-input="nearest">
+                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay" />
+                <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
+                  <div class="input-group-text">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <select id="stayLength" name="stayLength" value="1">
+            <select id="stayLength" name="stayLength" value="1">
               <option value="">Nights</option>
               <option value="1">1</option>
               <option value="2">2</option>
@@ -37,9 +38,66 @@ current: home
               <option value="9">9</option>
               <option value="10">10</option>
           </select>
-          <input type="submit" name="submit" id="submit" value="Book now" />
-        </form>
+            <input type="submit" name="submit" id="submit" value="Book now" />
+          </form>
+        </div>
       </div>
     </div>
   </div>
-</div>
+    <div class="row">
+      <!-- Main content -->
+      <div class="main-content col-md-8 py-4">
+        <div class="our-hotel">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 our-hotel__heading">
+                <h2>Our hotel</h2>
+                <hr>
+              </div>
+              <div class="our-hotel__body col-md-6">
+                <p>We pride ourselves on our ability to cater for everyone. We have comfortable, cosy rooms for families, couples and individuals. If you are joining us as a backpacker or as part of a stag party, then we have alternative options that might
+                  suit. Our Annexe, for example, provides you with comfortable rooms at very affordable prices in a separate building. We recently converted to eco-friendly, green energy with our very own biomass boilers!</p>
+              </div>
+              <div class="our-hotel__image col-md-6">
+                <img src="/assets/images/royalhead.png" alt="Royal Dunkeld Hotel">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dine-in">
+          <div class="container">
+            <div class="row">
+              <div class=" col-md-12 dine-in__heading">
+                <h2>Dine in</h2>
+                <hr>
+              </div>
+              <div class="dine-in__body col-md-6">
+                <p>Grab a bite to eat at our unique "Woodlands Bistro". You couldn't feel more relaxed whilst eating stunning food freshly prepared whilst contemplating our wonderful wooden hand carved woodland animals which decorate our cosy room.</p>
+              </div>
+              <div class="dine-in__image col-md-6">
+                <img src="/assets/images/dining1.jpg" alt="Restaurant Dunkeld">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dunkeld">
+          <div class="container">
+            <div class="row">
+              <div class=" col-md-12 dunkeld__heading">
+                <h2>Welcome to Dunkeld</h2>
+                <hr>
+              </div>
+              <div class="dunkeld__body col-md-6">
+                <p>Set in the picturesque town of Dunkeld, often known as "The Gateway to the Highlands", you'll never be bored with endless walks, cycle trails, golf courses, whisky distilleries and some of the finest shooting and fishing locations to be found in Scotland.</p>
+              </div>
+              <div class="dunkeld__image col-md-6">
+                <img src="/assets/images/dunkeld.jpg" alt="Dunkeld">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      {% include sidebar.html %}
+    </div>
+  </div>

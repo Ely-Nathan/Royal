@@ -1,12 +1,6 @@
 .hero {
   background-size: cover;
   background-position: center center;
-  padding-top:80px;
-
-  &--home {
-    background-image: url('/assets/images/royalmain.png');
-  }
-
   .brand-logo {
     text-align: center;
     padding:24px 0;
@@ -21,7 +15,6 @@
       }
     }
   }
-
   .booking-form {
     padding:20px;
     background-color:rgba($purple, .5);
@@ -67,5 +60,8 @@
         margin-top: 0;
       }
     }
+  }
+  &--home {
+    background-image: url('/assets/images/royalmain.png');
   }
 }
