@@ -1,20 +1,58 @@
 #to-do {
   .to-dobody {
+    &__tabs {
+      margin-bottom: 12px;
+      .nav-pills {
+        .nav-item {
+          margin-bottom: 6px;
+          a {
+            font-family: 'Gabriela', 'Montserrat', verdana;
+            color: $gold;
+            &.active, &:hover {
+              background: $purple;
+              color: $white;
+            }
+          }
+        }
+      }
+      .tab-content {
+        // border: 2px solid $gold;
+        // border-radius: 4px;
+        margin-top:12px;
+        padding: 18px 21px;
+        .tab-image {
+          img {
+            width: 100%;
+          }
+        }
+        .tab-text {
+          display: flex;
+          align-items: center;
+          margin-top:12px;
+          @media(min-width:768px) {
+            margin-top:0px;
+          }
+        }
+      }
+    }
+
     &__cards {
       .card {
         .card-body {
-            min-height: 0;
+          min-height: 0;
           @include media-breakpoint-up(md) {
             min-height: 484px;
           }
           @include media-breakpoint-up(lg) {
             min-height: 380px;
           }
+
           &.sm-row-1 {
             @include media-breakpoint-up(md) {
               min-height: 380px;
             }
           }
+
           &.sm-row-2 {
             @include media-breakpoint-up(md) {
               min-height: 360px;
@@ -23,6 +61,7 @@
               min-height: 380px;
             }
           }
+
           &.sm-row-3 {
             @include media-breakpoint-up(md) {
               min-height: 388px;
@@ -31,6 +70,7 @@
               min-height: 380px;
             }
           }
+
           &.sm-row-4 {
             @include media-breakpoint-up(lg) {
               min-height: 320px;
@@ -40,5 +80,4 @@
       }
     }
   }
-
 }
