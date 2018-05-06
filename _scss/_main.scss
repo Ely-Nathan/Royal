@@ -1,10 +1,10 @@
 body {
   background: #fafafa;
-  font-family: 'Montserrat', verdana, system;
   overflow-x: hidden;
   p {
     font-size: 14px;
     line-height:24px;
+    font-family: 'Montserrat', verdana, system;
     &.footnote {
       font-size:12px;
     }
@@ -55,4 +55,7 @@ body {
       }
     }
   }
+}
+.bootstrap-datetimepicker-widget {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
