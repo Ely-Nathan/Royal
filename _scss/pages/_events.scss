@@ -1,0 +1,32 @@
+#events {
+  .eventsbody {
+    &__content {
+      .row {
+        margin-bottom: 24px;
+      }
+      .image {
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        @media(min-width:768px) {
+          margin-top:0;
+        }
+        h5 {
+          display: block;
+        }
+        &.amberfest {
+          display: block;
+          margin-top: 0;
+          @media(min-width:768px) {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}

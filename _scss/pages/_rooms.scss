@@ -1,0 +1,20 @@
+#rooms {
+  .roomsbody {
+    &__cards {
+      .card {
+        .card-body {
+          min-height:188px;
+          @include media-breakpoint-up(lg) {
+            min-height: 200px;
+          }
+          @include media-breakpoint-up(xl) {
+            min-height: 176px;
+          }
+          h5 {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

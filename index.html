@@ -1,41 +1,71 @@
 ---
 layout: default
-title: Insert title here
-meta_description: Insert Description here
+title: Royal Dunkeld Hotel
+meta_description: Beautiful, old fashioned hotel situated in the picturesque town of Dunkeld. Offering unique dining experiences, great rooms and perfect location of your getaway.
 current: home
+dark-logo: false
 ---
-<div class="container">
-  <div class="row">
-    <div class="col-sm-6 heading">
-      <h1>Hello World!</h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus arcu. Sed tempor dapibus urna, vel varius ligula sagittis ut. Praesent tincidunt lectus vitae eros egestas, quis commodo tortor aliquam. Quisque accumsan augue est, vel porta velit laoreet id. Aliquam eu blandit nulla, sed luctus orci. In nibh nisi, feugiat in diam ut, tempus tristique mi. Nullam iaculis dolor sit amet magna maximus, eget porttitor mauris rutrum. Mauris ut rutrum felis. Ut pharetra, metus id porta rhoncus, nisl nibh interdum velit, in porta tortor dolor non augue.</p>
-    </div>
-    <div class="col-sm-6 another">
-      <h1>Another heading</h1>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus arcu. Sed tempor dapibus urna, vel varius ligula sagittis ut. Praesent tincidunt lectus vitae eros egestas, quis commodo tortor aliquam. Quisque accumsan augue est, vel porta velit laoreet id. Aliquam eu blandit nulla, sed luctus orci. In nibh nisi, feugiat in diam ut, tempus tristique mi. Nullam iaculis dolor sit amet magna maximus, eget porttitor mauris rutrum. Mauris ut rutrum felis. Ut pharetra, metus id porta rhoncus, nisl nibh interdum velit, in porta tortor dolor non augue.</p>
+<div id="home">
+  <div class="hero hero--home pt-7 pb-4">
+    {% include hero-content.html %}
+  </div>
+  <div class='container'>
+    <div class="row">
+      <!-- Main content -->
+      <div class="main-content col-md-8 py-4">
+        <div class="our-hotel">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 our-hotel__heading">
+                <h2>Our hotel</h2>
+                <hr>
+              </div>
+              <div class="our-hotel__body col-md-6">
+                <p>We pride ourselves on our ability to cater for everyone. We have comfortable, cosy rooms for families, couples and individuals. If you are joining us as a backpacker or as part of a stag party, then we have alternative options that might
+                  suit. Our Annexe, for example, provides you with comfortable rooms at very affordable prices in a separate building. We recently converted to eco-friendly, green energy with our very own biomass boilers!</p>
+              </div>
+              <div class="our-hotel__image col-md-6">
+                <img src="/assets/images/royalhead.png" alt="Royal Dunkeld Hotel">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dine-in">
+          <div class="container">
+            <div class="row">
+              <div class=" col-md-12 dine-in__heading">
+                <h2>Dine in</h2>
+                <hr>
+              </div>
+              <div class="dine-in__body col-md-6">
+                <p>Grab a bite to eat at our unique "Woodlands Bistro". You couldn't feel more relaxed whilst eating stunning food freshly prepared whilst contemplating our wonderful wooden hand carved woodland animals which decorate our cosy room.</p>
+              </div>
+              <div class="dine-in__image col-md-6">
+                <img src="/assets/images/dining1.jpg" alt="Restaurant Dunkeld">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dunkeld">
+          <div class="container">
+            <div class="row">
+              <div class=" col-md-12 dunkeld__heading">
+                <h2>Welcome to Dunkeld</h2>
+                <hr>
+              </div>
+              <div class="dunkeld__body col-md-6">
+                <p>Set in the picturesque town of Dunkeld, often known as "The Gateway to the Highlands", you'll never be bored with endless walks, cycle trails, golf courses, whisky distilleries and some of the finest shooting and fishing locations to be
+                  found in Scotland.</p>
+              </div>
+              <div class="dunkeld__image col-md-6">
+                <img src="/assets/images/dunkeld.jpg" alt="Dunkeld">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      {% include sidebar.html %}
     </div>
   </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="form-group">
-                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
-                    <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"/>
-                    <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
-                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker4').datetimepicker({
-                    format: 'L'
-                });
-            });
-        </script>
-    </div>
 </div>

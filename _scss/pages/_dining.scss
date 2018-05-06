@@ -1,0 +1,17 @@
+#dining {
+  .diningbody {
+    &__cards {
+      .card {
+        .card-body {
+            min-height: 0;
+          @include media-breakpoint-up(sm) {
+            min-height: 268px;
+          }
+          @include media-breakpoint-up(md) {
+            min-height: 200px;
+          }
+        }
+      }
+    }
+  }
+}

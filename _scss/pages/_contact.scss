@@ -1,0 +1,25 @@
+#contact {
+
+  .contactbody {
+    padding: 12px 0;
+    ul {
+      list-style-type: none;
+      margin-left:0;
+      padding-left:0;
+    }
+    .contact-info {
+      &__item {
+        padding: 6px 0;
+        a {
+          color: $gold;
+          font-size: 20px;
+          font-family: 'Gabriela', 'Montserrat', verdana;
+        }
+        hr {
+          height:1px;
+          width:10%;
+        }
+      }
+    }
+  }
+}

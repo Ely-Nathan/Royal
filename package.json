@@ -46,11 +46,12 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "gulp-mamp": "0.0.5",
+    "moment": "^2.22.1",
     "popper.js": "^1.14.1",
     "server": "^1.0.18"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Eli-Nathan/bootstrap-npm.git"
+    "url": "https://github.com/Eli-Nathan/royal.git"
   }
 }
