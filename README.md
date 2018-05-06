@@ -1,6 +1,6 @@
 # Royal
 Website for Royal Dunkeld Hotel
 
-#Get started
+# Get started
 Run `npm install`
 Run `npm run dev`
