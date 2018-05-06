@@ -2,13 +2,14 @@
   background-size: cover;
   background-position: center center;
   border-bottom: 2px solid $gold;
-  padding:20px;
+  padding: 20px;
+
   .brand-logo {
     text-align: center;
-    padding:24px 0;
+    padding: 24px 0;
 
     img {
-      width:90%;
+      width: 90%;
       @include media-breakpoint-up(md) {
         width: 60%;
       }
@@ -17,67 +18,84 @@
       }
     }
   }
+
   .booking-form {
-    padding:20px;
-    background-color:rgba($purple, .5);
+    padding: 20px;
+    background-color: rgba($purple, .5);
     border-radius: 4px;
-    padding-bottom:5px;
-    margin-bottom:24px;
+    padding-bottom: 5px;
+    margin-bottom: 24px;
     border: 2px solid $white;
-    input[type="submit"], select, .form-group {
-      width:100%;
-      margin:12px 0;
-      float:left;
+
+    input[type="submit"],
+    select,
+    .form-group {
+      width: 100%;
+      margin: 12px 0;
+      float: left;
     }
+
     select {
-      background-color:#fff;
-      border:1px solid #fff;
-      color:#333;
-      display:block;
+      background-color: #fff;
+      border: 1px solid #fff;
+      color: #333;
+      display: block;
       height: 38px;
-      border-radius:0px!important;
+      border-radius: 0px!important;
     }
+
     input[type="submit"] {
-      background:$gold;
+      background: $gold;
       color: $white;
       border: none;
-      height:38px;
+      height: 38px;
       border-radius: 4px;
       cursor: pointer;
       border: 2px solid $white;
     }
+
+    select {
+      width: 20%;
+      margin-right: 2%;
+      margin-top: 0;
+    }
+
+    input[type="submit"] {
+      width: 16%;
+      margin-top: 0;
+    }
+
+    .bootstrap-datetimepicker-widget {
+      font-family: -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
     @include media-breakpoint-up(md) {
       .form-group {
-        width:60%;
+        width: 60%;
         margin-right: 2%;
-        margin-top: 0;
-      }
-      select {
-        width:20%;
-        margin-right: 2%;
-        margin-top: 0;
-      }
-      input[type="submit"] {
-        width:16%;
         margin-top: 0;
       }
     }
   }
+
   &--home {
-    background-image: url('/Royal/assets/images/royalmain.png');
+    background-image: url("/Royal/assets/images/royalmain.png");
   }
+
   &--rooms {
-    background-image: url('/Royal/assets/images/royalroomhead.jpg');
+    background-image: url("/Royal/assets/images/royalroomhead.jpg");
   }
+
   &--dining {
-    background-image: url('/Royal/assets/images/woodlandsmain.jpg');
+    background-image: url("/Royal/assets/images/woodlandsmain.jpg");
   }
+
   &--to-do {
-    background-image: url('/Royal/assets/images/cathedral.jpg');
+    background-image: url("/Royal/assets/images/cathedral.jpg");
     background-position: center top;
   }
+
   &--events {
-    background-image: url('/Royal/assets/images/function2.jpg');
+    background-image: url("/Royal/assets/images/function2.jpg");
     background-position: center center;
   }
 }
