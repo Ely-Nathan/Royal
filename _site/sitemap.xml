@@ -4,10 +4,57 @@
 
   
     
+  
+    
       <url>
-        <loc>/news/</loc>
+        <loc>http://localhost:4000/contact/</loc>
         
-          <lastmod>2018-04-27T23:13:05+01:00</lastmod>
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/dining/</loc>
+        
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/rooms/</loc>
+        
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/events/</loc>
+        
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/</loc>
+        
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
+        
+      </url>
+    
+  
+    
+      <url>
+        <loc>http://localhost:4000/what-to-do-in-dunkeld/</loc>
+        
+          <lastmod>2018-05-06T17:07:57+01:00</lastmod>
         
       </url>
     

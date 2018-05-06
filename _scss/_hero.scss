@@ -64,20 +64,20 @@
     }
   }
   &--home {
-    background-image: url('/assets/images/royalmain.png');
+    background-image: url('../images/royalmain.png');
   }
   &--rooms {
-    background-image: url('/assets/images/royalroomhead.jpg');
+    background-image: url('../images/royalroomhead.jpg');
   }
   &--dining {
-    background-image: url('/assets/images/woodlandsmain.jpg');
+    background-image: url('../images/woodlandsmain.jpg');
   }
   &--to-do {
-    background-image: url('/assets/images/cathedral.jpg');
+    background-image: url('../images/cathedral.jpg');
     background-position: center top;
   }
   &--events {
-    background-image: url('/assets/images/function2.jpg');
+    background-image: url('../images/function2.jpg');
     background-position: center center;
   }
 }
