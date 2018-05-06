@@ -48,7 +48,7 @@ gulp.task('share', function() {
 
 gulp.task('javascripts', function() {
   return gulp.src(['./_scripts/*.js', './_scripts/**/*.js'])
-    .pipe(gulpif(!argv.force, changed('./assets/scripts', {
+    .pipe(gulpif(!argv.force, changed('./Royal/assets/scripts', {
       extension: '.js'
     })))
     .pipe(tap(function(file) {
@@ -72,13 +72,13 @@ gulp.task('javascripts', function() {
       path.extname = '.js';
     }))
     // .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest('./assets/scripts'))
+    .pipe(gulp.dest('./Royal/assets/scripts'))
 });
 
 
 gulp.task('stylesheets', function() {
   return gulp.src(['./_scss/**/*.scss', './node_modules/bootstrap/scss/bootstrap.scss'])
-    // .pipe(gulpif(!argv.force, changed('./assets/css', {
+    // .pipe(gulpif(!argv.force, changed('./Royal/assets/css', {
     //     extension: '.css'
     // })))
     .pipe(sass({
@@ -98,16 +98,16 @@ gulp.task('stylesheets', function() {
     .pipe(debug({
       title: 'SCSS Compiled:'
     }))
-    .pipe(gulp.dest('./assets/css'))
+    .pipe(gulp.dest('./Royal/assets/css'))
 });
 
 gulp.task('optimize_images', function() {
-  return gulp.src('./assets/assets/images/**/*.{jpg, bmp, gif, png, jpeg, svg}')
+  return gulp.src('./Royal/assets/Royal/assets/images/**/*.{jpg, bmp, gif, png, jpeg, svg}')
     .pipe(imagemin())
     .pipe(debug({
       title: 'Crunched:'
     }))
-    .pipe(gulp.dest('./assets/images'))
+    .pipe(gulp.dest('./Royal/assets/images'))
 });
 
 gulp.task('watch', function() {
