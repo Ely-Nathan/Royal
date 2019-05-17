@@ -22,7 +22,7 @@ var gulp = require('gulp'),
 
 
 gulp.task('jekyll-build', function(done) {
-  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch', '--incremental'], {
+  return cp.spawn('bundle', ['exec', 'jekyll', 'build', '--watch', '--incremental', '--baseurl='], {
       stdio: 'inherit'
     })
     .on('close', done);
