@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="http://localhost:4000/what-to-do-in-dunkeld/">
+	<link rel="canonical" href="https://github.com/Eli-Nathan/Royal/what-to-do-in-dunkeld/">
 	<meta name="author" content="Elijah Nathan - Eli's Web">
 	<meta name="description" content="There are endless things to keep you occupied in Dunkeld. From outdoor activities to food and drink, you won't get bored.">
 	<meta name="viewport" content="width=device-width">
@@ -65,7 +65,7 @@
 </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
           <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -103,30 +103,32 @@
       <form action="https://portal.freetobook.com/widget-redir?w_id=32434&amp;w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" method="POST" name="f2b_search_form">
         <input name="referrer" type="hidden" value="http://royaldunkeld.co.uk/">
         <input name="checkIn" id="checkIn" type="hidden" value>
-        <div class="form-group">
-          <div class="input-group date" id="datetimepicker" data-target-input="nearest">
-            <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay" />
-            <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
-              <div class="input-group-text">
-                <i class="fa fa-calendar"></i>
+        <div class="d-flex flex-form">
+          <div class="form-group">
+            <div class="input-group date" id="datetimepicker" data-target-input="nearest">
+              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay" />
+              <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
+                <div class="input-group-text">
+                  <i class="fa fa-calendar"></i>
+                </div>
               </div>
             </div>
           </div>
+          <select id="stayLength" name="stayLength" value="1">
+            <option value="">Nights</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <input type="submit" name="submit" id="submit" value="Book now" />
         </div>
-        <select id="stayLength" name="stayLength" value="1">
-          <option value="">Nights</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-      </select>
-        <input type="submit" name="submit" id="submit" value="Book now" />
       </form>
     </div>
   </div>

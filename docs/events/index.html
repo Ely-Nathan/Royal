@@ -5,14 +5,14 @@
 	<meta charset="utf-8">
   
 
-	<title>Rooms | Royal Dunkeld Hotel</title>
+	<title>Events | Royal Dunkeld Hotel</title>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="canonical" href="http://localhost:4000/rooms/">
+	<link rel="canonical" href="https://github.com/Eli-Nathan/Royal/events/">
 	<meta name="author" content="Elijah Nathan - Eli's Web">
-	<meta name="description" content="We offer a range of rooms from family and double and single rooms to single occupancy and affordable annexe rooms.">
+	<meta name="description" content="We cater for mny different types of events in the Royal Dunkeld Hotel. Wedding, birthdays, shooting parties and many more.">
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="/assets/images/r.png">
 	<link rel="apple-touch-icon" sizes="57x57" href="/assets/images/r.png">
@@ -65,7 +65,7 @@
 </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
           <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -90,8 +90,8 @@
 </nav>
 
 	<!-- Page content -->
-	<div id="rooms">
-  <div class="hero hero--rooms pt-7 pb-4">
+	<div id="events">
+  <div class="hero hero--events pt-7 pb-4">
     <div class="container">
   <div class="row">
     <div class="brand-logo col-sm-12">
@@ -103,106 +103,65 @@
       <form action="https://portal.freetobook.com/widget-redir?w_id=32434&amp;w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" method="POST" name="f2b_search_form">
         <input name="referrer" type="hidden" value="http://royaldunkeld.co.uk/">
         <input name="checkIn" id="checkIn" type="hidden" value>
-        <div class="form-group">
-          <div class="input-group date" id="datetimepicker" data-target-input="nearest">
-            <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay" />
-            <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
-              <div class="input-group-text">
-                <i class="fa fa-calendar"></i>
+        <div class="d-flex flex-form">
+          <div class="form-group">
+            <div class="input-group date" id="datetimepicker" data-target-input="nearest">
+              <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker" id="checkInDisplay" />
+              <div class="input-group-append" data-target="#datetimepicker" data-toggle="datetimepicker">
+                <div class="input-group-text">
+                  <i class="fa fa-calendar"></i>
+                </div>
               </div>
             </div>
           </div>
+          <select id="stayLength" name="stayLength" value="1">
+            <option value="">Nights</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+          <input type="submit" name="submit" id="submit" value="Book now" />
         </div>
-        <select id="stayLength" name="stayLength" value="1">
-          <option value="">Nights</option>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-      </select>
-        <input type="submit" name="submit" id="submit" value="Book now" />
       </form>
     </div>
   </div>
 </div>
 
   </div>
-  <div class="roomsbody">
+  <div class="eventsbody">
     <div class="container">
       <div class="row">
-        <div class="roomsbody__intro col-sm-10 offset-sm-1 col-md-8 offset-md-2 text-center">
-          <h3>Our rooms</h3>
+        <div class="eventsbody__intro col-sm-10 offset-sm-1 col-md-8 offset-md-2 text-center">
+          <h3>Events</h3>
           <hr>
-          <p>All of our cosy rooms have comfortable beds, easily controlled heating and an en-suite.</p>
+          <p>Let us host your event! Our large function hall allows us to host a range of events to fit your needs. The hall is a beautifully grand and historic room which still has an old Masonic Fireplace.</p>
         </div>
-        <div class="roomsbody__cards col-sm-12">
+        <div class="eventsbody__content col-sm-12 col-lg-10 offset-lg-1">
           <div class="row">
-            <div class="col-sm-6 col-lg-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/images/family2.jpg" alt="Family room">
-              </div>
-                <div class="card-body">
-                  <h5 class="card-title">Family room</h5>
-                  <p class="sleeps-text">Sleeps 4</p>
-                  <p class="card-text">Family rooms offer a double and a single bed. The perfect size for a family.</p>
-                </div>
-                <a class="card-footer text-muted" href="https://portal.freetobook.com/reservations?w_id=32434&w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" target="_blank">
-                  Book now
-                </a>
-              </div>
+            <div class="col-md-6 image">
+              <img src="/assets/images/function3.jpg" alt="Larches restaurant">
             </div>
-            <div class="col-sm-6 col-lg-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/images/double1.jpg" alt="Double room">
-              </div>
-                <div class="card-body">
-                  <h5 class="card-title">Double room</h5>
-                  <p class="sleeps-text">Sleeps 2</p>
-                  <p class="card-text">Double rooms offer a double bed and an ensuite.</p>
-                </div>
-                <a class="card-footer text-muted" href="https://portal.freetobook.com/reservations?w_id=32434&w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" target="_blank">
-                  Book now
-                </a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/images/twin1.jpg" alt="Twin room">
-              </div>
-                <div class="card-body">
-                  <h5 class="card-title">Twin room</h5>
-                  <p class="sleeps-text">Sleeps 4</p>
-                  <p class="card-text">Twin rooms offer two single beds and an ensuite.</p>
-                </div>
-                <a class="card-footer text-muted" href="https://portal.freetobook.com/reservations?w_id=32434&w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" target="_blank">
-                  Book now
-                </a>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-              <div class="card">
-                <img class="card-img-top" src="/assets/images/annexe.png" alt="Annexe">
-              </div>
-                <div class="card-body">
-                  <h5 class="card-title">Annexe room</h5>
-                  <p class="sleeps-text">Sleeps 4</p>
-                  <p class="card-text">Annexe Rooms are suited for those who are travelling on a budget.</p>
-                </div>
-                <a class="card-footer text-muted" href="https://portal.freetobook.com/reservations?w_id=32434&w_tkn=kmeWccz87CilTjlOGiTwAmpD6GbeQfkohkqleRoZw9iJjpDavT7EFs7rbMhJt" target="_blank">
-                  Book now
-                </a>
-              </div>
+            <div class="col-md-6 text">
+              <p>Our grand hall will round your special day off in a spectacular way. Let us take care of the the food and drink, allowing you to sit back and enjoy your day. We can help to organise entertainment, provide food and serve drinks from your private bar. Get in touch to start planning your party.</p>
             </div>
           </div>
-        </div>
-        <div class="roomsbody__footnote col-sm-12">
-          <p class="footnote">** <strong>Note for dog owners</strong> - While we will always welcome your fury friends and are proud to be a dog friendly hotel, we have ecently introduced a £10 fee per dog, per stay. We encourage you to bring your dogs with you but ask that you understand the extra cleaning involved.</p>
+          <div class="row">
+            <div class="col-md-6 text amberfest">
+              <h5>Perthshire Amber Festival</h5>
+              <p>The Royal Dunkeld has been host to the Amber Festival's musicians for the past 5 years. During the festival, which is held annually in late October - early November, we become "The Wee Festival Hall". The music flows through the night
+                and the atmosphere here at this time of year is truly magical.</p>
+            </div>
+            <div class="col-md-6 image">
+              <img src="/assets/images/dougie.jpg" alt="Dougie MacLean">
+            </div>
+          </div>
         </div>
       </div>
     </div>

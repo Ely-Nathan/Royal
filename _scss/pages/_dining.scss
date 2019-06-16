@@ -2,6 +2,10 @@
   .diningbody {
     &__cards {
       .card {
+        .card-img-top {
+          max-height: 250px;
+        }
+
         .card-body {
             min-height: 0;
           @include media-breakpoint-up(sm) {

@@ -1,5 +1,5 @@
 nav.navbar {
-  background: rgba(#000, .6);
+  background: rgba(#000, .8);
   border-bottom: 3px solid $white;
   .navbar-brand {
     img {
@@ -15,10 +15,12 @@ nav.navbar {
       @include media-breakpoint-up(md) {
         padding-left:7px;
         padding-right:7px;
+        font-family: 'Gabriela', 'Montserrat', Helvetica, verdana, system;
       }
       a.nav-link {
         color: $white;
         font-weight:700;
+        font-family: 'Gabriela', 'Montserrat', Helvetica, verdana, system;
         &:hover {
           color: $gold;
         }
