@@ -2,6 +2,10 @@
   .roomsbody {
     &__cards {
       .card {
+        .card-img-top { 
+          max-height: 150px;
+        }
+        
         .card-body {
           min-height:188px;
           @include media-breakpoint-up(lg) {

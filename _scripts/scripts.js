@@ -5,7 +5,7 @@ $(document).ready(function() {
       locale: 'uk',
       allowInputToggle: true, // Minimum date is today's date
       defaultDate: new Date(),
-      minDate: new Date(), 
+      minDate: new Date(),
       useCurrent: true
     });
   });

@@ -2,12 +2,7 @@ name: Eli
 markdown: redcarpet
 highlighter: null # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json",  "README.md", "_scripts", "_scss", "gemfile", "Gemfile.lock"]
-url: "https://github.com/Ely-Nathan/Royal"
-baseurl: "/Royal"
+url: "https://royaldunkeld.co.uk"
+baseurl: "/"
 
-
-collections:
-  posts:
-    output:   true
-
-permalink: /news/:title.html
+destination: docs
