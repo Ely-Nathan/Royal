@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900&display=swap');
+
 .hero {
   background-size: cover;
   background-position: center center;
@@ -117,5 +119,29 @@
   &--events {
     background-image: url('../images/function2.jpg');
     background-position: center center;
+  }
+
+  .promo {
+    background-color: rgba($purple, .75);
+    padding: 12px 14px;
+    color: #fff;
+    text-align: center;
+    border: 2px solid $gold;
+    border-radius: 4px;
+
+    h5 {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      line-height: 1.8;
+      margin-bottom: 0;
+    }
+
+    .code {
+      font-family: 'Source Code Pro', monospace;
+      font-weight: 900;
+      background-color: $gold;
+      padding: 6px 7px;
+      border-radius: 4px;
+    }
   }
 }
